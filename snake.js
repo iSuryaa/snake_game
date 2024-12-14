@@ -10,7 +10,7 @@ var snakeY = blockSize * 5;
 var foodX;
 var foodY;
 
-var velocityX = 0;
+var velocityX = 1;
 var velocityY = 0;
 
 var snakeBody = [];
@@ -111,7 +111,7 @@ function restartGame() {
     snakeX = blockSize * 5;
     snakeY = blockSize * 5;
     snakeBody = [];
-    velocityX = 0;
+    velocityX = 1;
     velocityY = 0;
     gameOver = false;
     score = 0; // Reset score
